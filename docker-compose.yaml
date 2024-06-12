@@ -1,0 +1,10 @@
+version: '3'
+services:
+  devops:
+    image: jhany999/foodsite-v1:latest
+    ports:
+      - "80:80"
+    deploy:
+      replicas: 3
+
+
